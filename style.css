@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url(/fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "DancingScript";
+    src: url(/fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: "BebasNeue";
+}
+
+html, body, ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* My Perfect Dog By Victor Moreno - thislayoutbuilder */
+
+#welcome-banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/banner-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome-banner h1 {
+    font-size: 39px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ff8080;
+    text-shadow: 2px 2px black;
+    letter-spacing: 3px;
+}
+
+.script {
+    font-family: "DancingScript";
+    font-size: 113px;
+    text-shadow: 2px 2px black;
+    letter-spacing: initial;
+}
